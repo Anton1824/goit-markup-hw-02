@@ -14,11 +14,11 @@ a {
 }
 .logo {
     color: #4D5AE5;
-        font-family: Raleway;
+        font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
-        letter-spacing: 0.54px;
+        letter-spacing: 0.02em;
         text-transform: uppercase;
 }
 .logo span {
@@ -37,7 +37,7 @@ a {
 .header-list :focus {
     color: #404BBF;
 } 
-.adress {
+.address {
     font-style: normal;
 }
 .header-contact_link {
@@ -47,7 +47,10 @@ a {
         line-height: 1.5;
         letter-spacing: 0.32px;
 }
-.header-contact_link :hover {
+.header-contact :hover {
+    color: #404BBF;
+}
+.header-contact :focus {
     color: #404BBF;
 }
 .solutions {
@@ -64,6 +67,7 @@ a {
 }
 .solutions-button {
     color: #FFF;
+        font-family: "roboto", sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -72,7 +76,10 @@ a {
     background-color: #4D5AE5;
 }
 .solutions-button :hover {
-    color: #404BBF;
+    background-color: #404BBF;
+}
+.solutions-button :focus {
+    background-color: #404BBF;
 }
 .features-title {
     color: #2E2F42;
@@ -110,6 +117,9 @@ a {
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.4px;
+}
+.team >ul>li {
+    background-color: #ffffff;
 }
 .team-text {
     color: #434455;
@@ -151,7 +161,7 @@ a {
 }
 .footer-logo {
     color: #4D5AE5;
-        font-family: Raleway;
+        font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
