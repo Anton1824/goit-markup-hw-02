@@ -18,7 +18,7 @@ a {
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
-        letter-spacing: 0.02em;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
 }
 .logo span {
@@ -29,7 +29,7 @@ a {
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5;
-        letter-spacing: 0.32px;
+        letter-spacing: 0.02em;
 }
 .header-list :hover {
     color: #404BBF;
@@ -67,7 +67,7 @@ a {
 }
 .solutions-button {
     color: #FFF;
-        font-family: "roboto", sans-serif;
+        font-family: "Roboto", sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -75,10 +75,10 @@ a {
         letter-spacing: 0.64px;
     background-color: #4D5AE5;
 }
-.solutions-button :hover {
+.solutions-button:hover {
     background-color: #404BBF;
 }
-.solutions-button :focus {
+.solutions-button:focus {
     background-color: #404BBF;
 }
 .features-title {
